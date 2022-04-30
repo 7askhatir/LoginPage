@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+
+}
+ table{
+margin-left: 200px;
+margin-right: 200px ;
+border-collapse: collapse;
+border: solid 2px ;
+background-color: #f0f0f0;
+overflow: scroll;
+
+ }
+ td:hover{
+    
+     color: rgb(0, 149, 255);
+ }
+ .btn:hover{
+    background-color: green;
+ }
+
+ fieldset{
+    margin-left: 500px;
+    margin-right: 500px ;
+    border: dashed;
+    border-color: rgb(0, 98, 255);
+    border-width: 5px;
+    background-color: rgb(231, 230, 230);
+ }
+ hr{
+    border: solid;
+ }
+ #d1,#d2,#d3,#d4{
+    font-size: 18px;
+ }
+
+ .btn{
+    font-size:15px ;
+    background-color: rgb(255, 0, 0);
+    color: #f0f0f0;  
+    border-radius: 15px;
+ }
+ #button1,#button2{
+    font-size:25px ;
+    background-color: rgb(0, 145, 255);
+    color: #f0f0f0;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+ }
+button{
+   cursor: pointer;
+}
+ textarea{
+     font-size: 15px;
+ }
+ h1{
+        position: relative;
+        margin: 0 25px 0;
+        font-size: 2.3em;
+        text-align: center;
+        letter-spacing: 7px;
+ }
+ input:hover {
+    background: #f0f0f0;
+  }
+
+  textarea:hover{
+background: #f0f0f0;
+  }
+  tr,th{
+      border: solid;
+  }
+  td{
+       border: solid 1px;
+  }
+  #tr1{
+      background-color: rgb(255, 255, 60);
+  }
+  button:focus {
+   
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+  }
